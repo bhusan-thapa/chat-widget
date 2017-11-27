@@ -1,1 +1,1 @@
-EventLogic Chatbot Widget UI
+portable chat based on React and socket.io
