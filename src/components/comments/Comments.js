@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { List, ListItem } from 'material-ui/List';
 import Header from '../header/Header';
 import Input from '../input/Input';
 import Show from '../show/Show';

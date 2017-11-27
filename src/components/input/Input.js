@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { sendMessage } from '../../actions';
 import { subscribe } from '../../socket';
-import Menu from '../menu/Menu';
 import './input.css';
 class Input extends Component {
   constructor(props) {

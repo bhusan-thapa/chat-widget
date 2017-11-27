@@ -1,16 +1,17 @@
 import React from 'react';
-import Button from '../button/Button';
+// import Button from '../button/Button';
 import Chip from '../chips/Chips';
 import TxtButton from '../textButton/textButton';
 import Date from '../date-picker/DatePicker';
 import { subscribe } from '../../socket';
 
 const Show = props => {
-  if (props.messages.module_type === 'MT_BTN') {
-    return (
-      <Button label={props.messages.text} flow_id={props.messages.flowId} />
-    );
-  } else if (props.messages.module_type === 'MT_CHIPS') {
+  // if (props.messages.module_type === 'MT_BTN') {
+  //   return (
+  //     <Button label={props.messages.text} flow_id={props.messages.flowId} />
+  //   );
+  // } else
+  if (props.messages.module_type === 'MT_CHIPS') {
     return (
       <div className="cm-chat cm-message-bot">
         <div className="cm-avatar" />
