@@ -1,0 +1,27 @@
+.cm-message-question {
+  padding: 0 0 10px;
+}
+
+.cm-message-button {
+  color: #30aef3;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0 0 0;
+  background: transparent;
+  border-top: 1px solid #eee;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0 0 20px 20px;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cm-message-button:hover,
+.cm-message-button:active,
+.cm-message-button:focus {
+  background: transparent;
+  text-decoration: underline;
+}

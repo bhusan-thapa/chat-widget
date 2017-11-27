@@ -1,0 +1,76 @@
+.cm-header {
+  border-radius: 3px 3px 0 0;
+  background-color: #30aef3;
+  color: #fff;
+  padding: 20px;
+}
+
+.cm-header-img,
+.cm-header-title {
+  display: inline-block;
+}
+
+.cm-header-img {
+  width: 18%;
+  vertical-align: top;
+  margin-top: 20px;
+  background-image: url("../../../assets/images/avatar.png");
+  background-repeat: no-repeat;
+}
+
+.cm-header-title {
+  width: 80%;
+}
+
+.cm-header-title h1 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0.6em 0;
+}
+
+.cm-header-title p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.com-header-restart {
+  background-image: url("../../../assets/images/restart.png");
+  background-repeat: no-repeat;
+}
+
+.cm-top-bar {
+  background: #1588c7;
+  border-top: 1px solid #0c77b1;
+  color: #fff;
+  height: 35px;
+  line-height: 35px;
+}
+
+.cm-top-bar-left {
+  float: left;
+  padding-left: 15px;
+}
+
+.cm-top-bar-right {
+  float: right;
+}
+
+.cm-lang {
+  color: #fff;
+  background: #1588c7;
+  display: inline;
+  float: left;
+  padding: 10px 15px;
+  border-left: 1px solid #0c77b1;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.cm-lang:active,
+.cm-lang:focus,
+.cm-lang.active {
+  background: rgba(0, 0, 0, 0.15);
+}

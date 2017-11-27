@@ -1,0 +1,36 @@
+.cm-send {
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-image: url('../../../assets/images/send.png');
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+.cm-message-type {
+  height: 50px;
+  background-color: #fff;
+  border-top: 1px solid #c6d0dc;
+  border-radius: 0 0 3px 3px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.cm-message-type fieldset {
+  padding: 0;
+  border: none;
+  margin: 0;
+  height: 50px;
+}
+
+.cm-message-type input[type="text"] {
+  height: 100%;
+  width: 230px;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  vertical-align: top;
+}

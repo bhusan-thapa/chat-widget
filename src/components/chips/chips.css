@@ -1,0 +1,23 @@
+.cm-message-human .cm-event-buttons {
+  background: transparent;
+  padding: 0;
+  max-width: 220px;
+}
+
+.cm-button {
+  margin: 2px;
+  padding: 10px 15px;
+  background: #30aef3;
+  color: #fff;
+  float: right;
+  border: none;
+  border-radius: 20px;
+}
+
+.cm-button:hover,
+.cm-button:active,
+.cm-button:focus {
+  background: #1588c7;
+  outline: none;
+  cursor: pointer;
+}
